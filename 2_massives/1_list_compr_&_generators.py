@@ -25,4 +25,3 @@ tuple_example = (tuple(_ for _ in symbols))
 print(tuple_example, type(tuple_example), sys.getsizeof(tuple_example))
 array_example = array('u', (_ for _ in symbols))
 print(array_example, type(array_example), sys.getsizeof(array_example))
-array_example.
