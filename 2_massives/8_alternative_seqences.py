@@ -11,7 +11,7 @@ from array import array
 from random import random
 
 
-floats = array('d', (random() for _ in range(10**7)))  # support creation from generaors  # noqa: E501
+floats = array('d', (random() for _ in range(10**7)))  # support creation from generators  # noqa: E501
 print(floats[-1])
 with open('floats.bin', 'wb') as file:
     floats.tofile(file)

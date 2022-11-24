@@ -12,7 +12,7 @@ print(uns_lst)
 print(id(uns_lst))
 
 print('sort() returns None and modify existing object:\n', uns_lst.sort())
-print('sorted returns new sorted object:\n', sorted(uns_lst))
+print('sorted returns new sorted list:\n', sorted(uns_lst))
 print('2 objects have same id:', id(uns_lst) == id(sorted(uns_lst)))
 
 # У соглашения о возврате None в случае обновления на месте
